@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,7 +60,7 @@
     <script>
         function sendReferral() {
             var whatsappNumber = "+91-xxxx"; // Replace with the recipient's WhatsApp number
-            var message = "Hi, This is Rithika. I am referring you for the Yoshops Data Analyst internship training program. Please go through the link below and book it now.\n\nLink: https://yoshops.com/products/yoshops-referral-gift";
+            var message = "Hi, This is Lavanya. I am referring you for the Yoshops Data Analyst internship training program. Please go through the link below and book it now.\n\nLink: https://yoshops.com/products/yoshops-referral-gift";
            
             var whatsappLink = "https://api.whatsapp.com/send?phone=" + encodeURIComponent(whatsappNumber) + "&text=" + encodeURIComponent(message);
            
